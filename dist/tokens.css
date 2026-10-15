@@ -1,4 +1,4 @@
-/* @anqer/tokens 0.1.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit. */
+/* @anqer/tokens 0.2.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit. */
 :root {
   --anqer-color-navy: #09101b;
   --anqer-color-navy-ink: #1e2a3a;
@@ -42,6 +42,7 @@
   --anqer-color-setup-short-ink: #8a5a08;
   --anqer-color-setup-short-bg: #fffbeb;
   --anqer-color-brand-mark: #ed3500;
+  --anqer-color-cherry: #9b1b3b;
   --anqer-color-action: #3d8eb9;
   --anqer-color-action-ink: #2f6f92;
   --anqer-color-surface-chrome: #ffffff;
@@ -55,6 +56,7 @@
   --anqer-color-ink-chrome: #1e2a3a;
   --anqer-color-ink-body: #39424f;
   --anqer-color-ink-muted: #5b6673;
+  --anqer-color-ink-secondary: #6e6e73;
   --anqer-color-ink-faint: #8b93a1;
   --anqer-color-ink-dim: #8a939f;
   --anqer-color-ink-fainter: #9aa3ae;

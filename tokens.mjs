@@ -104,6 +104,10 @@ export const color = {
   // The orange of the logo. For the logo only — never for UI.
   'brand-mark': '#ed3500',
 
+  // Cherry: the deep red that accompanies `brand` — a complementary accent,
+  // not a second brand red and not an error colour.
+  cherry: '#9b1b3b',
+
   // The clear name for `accent`: the interactive blue of links, focus rings
   // and selected states.
   action: { DEFAULT: ACCENT.DEFAULT, ink: ACCENT.ink },
@@ -132,6 +136,8 @@ export const color = {
     chrome: NAVY_INK,
     body: '#39424f',
     muted: '#5b6673',
+    // Secondary text: the step between `muted` and `faint` (captions, meta lines).
+    secondary: '#6e6e73',
     faint: MUTED,
     dim: '#8a939f',
     fainter: '#9aa3ae',

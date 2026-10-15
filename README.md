@@ -93,6 +93,7 @@ own name, as in Tailwind: `ok.DEFAULT` is `ok`, `ok.ink` is `ok-ink`.
 | `brand` | `#e41e06` | brand red |
 | `brand-hover` | `#c91a05` | hover on `brand` |
 | `brand-mark` | `#ed3500` | logo orange — the logo only, never UI |
+| `cherry` | `#9b1b3b` | deep red that accompanies `brand`; a complementary accent, not an error colour |
 | `accent` | `#3d8eb9` | **deprecated name**, see below |
 | `accent-ink` | `#2f6f92` | **deprecated name**, see below |
 | `action` | `#3d8eb9` | links, focus rings, selected and informational states |
@@ -127,7 +128,8 @@ own name, as in Tailwind: `ok.DEFAULT` is `ok`, `ok.ink` is `ok-ink`.
 | `ink` | `#09101b` | headings and figures (same as `navy`) |
 | `ink-chrome` | `#1e2a3a` | everyday text, control navy (same as `navy-ink`) |
 | `ink-body` | `#39424f` | body copy |
-| `ink-muted` | `#5b6673` | secondary text |
+| `ink-muted` | `#5b6673` | muted text |
+| `ink-secondary` | `#6e6e73` | secondary text: captions, meta lines |
 | `ink-faint` | `#8b93a1` | faint text (same as `muted`) |
 | `ink-dim` | `#8a939f` | dim text |
 | `ink-fainter` | `#9aa3ae` | fainter text |

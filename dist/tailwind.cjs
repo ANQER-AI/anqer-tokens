@@ -1,4 +1,4 @@
-// @anqer/tokens 0.1.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
+// @anqer/tokens 0.2.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
 // Tailwind CSS 3.4 preset: presets: [require('@anqer/tokens/tailwind')]
 'use strict';
 
@@ -64,6 +64,7 @@ module.exports = {
           "short-bg": "#fffbeb"
         },
         "brand-mark": "#ed3500",
+        "cherry": "#9b1b3b",
         "action": {
           "DEFAULT": "#3d8eb9",
           "ink": "#2f6f92"
@@ -84,6 +85,7 @@ module.exports = {
           "chrome": "#1e2a3a",
           "body": "#39424f",
           "muted": "#5b6673",
+          "secondary": "#6e6e73",
           "faint": "#8b93a1",
           "dim": "#8a939f",
           "fainter": "#9aa3ae",
