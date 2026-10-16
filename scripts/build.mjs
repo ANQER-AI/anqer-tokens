@@ -72,6 +72,7 @@ for (const [name, { size, lineHeight }] of Object.entries(tokens.fontSize)) {
   flat[`font-size-${name}`] = size;
   flat[`line-height-${name}`] = lineHeight;
 }
+for (const [name, value] of Object.entries(tokens.borderRadius)) flat[`radius-${name}`] = value;
 for (const [name, value] of Object.entries(tokens.zIndex)) flat[`z-${name}`] = value;
 for (const [name, value] of Object.entries(tokens.spacing)) flat[`spacing-${name}`] = value;
 // keyframes/animation are Tailwind-only: a custom property cannot carry @keyframes.
@@ -89,6 +90,7 @@ const preset = {
           [size, { lineHeight }],
         ]),
       ),
+      borderRadius: tokens.borderRadius,
       keyframes: tokens.keyframes,
       animation: tokens.animation,
       spacing: tokens.spacing,
@@ -127,6 +129,7 @@ const json = {
     color: tokens.color,
     fontFamily: tokens.fontFamily,
     fontSize: tokens.fontSize,
+    borderRadius: tokens.borderRadius,
     zIndex: tokens.zIndex,
     spacing: tokens.spacing,
     keyframes: tokens.keyframes,

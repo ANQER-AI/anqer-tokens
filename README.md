@@ -186,6 +186,15 @@ package carries the names only; each surface loads the font files itself.
 The rest of the type scale is Tailwind's default (`text-xs` 12 px, `text-sm`
 14 px, `text-base` 16 px, …).
 
+### Shape
+
+| Tailwind | CSS | Value |
+| --- | --- | --- |
+| `rounded-button` | `--anqer-radius-button` | `0.5rem` (8 px) |
+
+A button's corner radius, the same on the website and in the app (AQM-2979).
+Heights and padding stay each surface's own.
+
 ### Layout
 
 | Tailwind | CSS | Value |

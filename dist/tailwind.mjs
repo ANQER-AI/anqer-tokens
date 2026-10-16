@@ -1,4 +1,4 @@
-// @anqer/tokens 0.3.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
+// @anqer/tokens 0.4.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
 // Tailwind CSS 3.4 preset: import anqer from '@anqer/tokens/tailwind'; presets: [anqer]
 
 export default {
@@ -121,6 +121,9 @@ export default {
             "lineHeight": "1.45"
           }
         ]
+      },
+      "borderRadius": {
+        "button": "0.5rem"
       },
       "keyframes": {
         "setup-pop": {

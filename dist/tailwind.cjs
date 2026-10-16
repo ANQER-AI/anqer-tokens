@@ -1,4 +1,4 @@
-// @anqer/tokens 0.3.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
+// @anqer/tokens 0.4.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
 // Tailwind CSS 3.4 preset: presets: [require('@anqer/tokens/tailwind')]
 'use strict';
 
@@ -122,6 +122,9 @@ module.exports = {
             "lineHeight": "1.45"
           }
         ]
+      },
+      "borderRadius": {
+        "button": "0.5rem"
       },
       "keyframes": {
         "setup-pop": {

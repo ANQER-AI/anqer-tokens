@@ -170,6 +170,16 @@ export const fontSize = {
   '2xs': { size: '0.6875rem', lineHeight: '1.45' },
 };
 
+// ── Shape ────────────────────────────────────────────────────────────────────
+
+// Corner radius of a button, the same on the website and in the app (AQM-2979,
+// 3a: 8px, already the shared header's "Demo buchen" and @anqer/ui's
+// `rounded-lg`). Heights and padding are NOT shared: in the app a button matches
+// the input fields beside it.
+export const borderRadius = {
+  button: '0.5rem',
+};
+
 // ── Layout ───────────────────────────────────────────────────────────────────
 
 // Stacking order of the app's layers, lowest first.
@@ -232,6 +242,7 @@ export default {
   rgbTriplets,
   fontFamily,
   fontSize,
+  borderRadius,
   zIndex,
   spacing,
   keyframes,
