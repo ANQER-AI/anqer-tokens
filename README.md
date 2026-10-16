@@ -172,11 +172,16 @@ For alpha: `rgb(var(--anqer-color-brand-rgb) / 0.08)`.
 | Tailwind | CSS | Value |
 | --- | --- | --- |
 | `font-sans` | `--anqer-font-sans` | Helvetica Neue, Helvetica, Arial |
+| `font-body` | `--anqer-font-body` | Fira Sans, then the `sans` stack |
+| `font-display` | `--anqer-font-display` | Inter, then the `sans` stack |
 | `text-2xs` | `--anqer-font-size-2xs` | `0.6875rem` (11 px) |
 | `text-2xs` | `--anqer-line-height-2xs` | `1.45` |
 
 The full `font-sans` stack is
 `"Helvetica Neue", Helvetica, Arial, sans-serif`.
+
+`body` (text) and `display` (headlines) are the fonts decided on AQM-2979. The
+package carries the names only; each surface loads the font files itself.
 
 The rest of the type scale is Tailwind's default (`text-xs` 12 px, `text-sm`
 14 px, `text-base` 16 px, …).

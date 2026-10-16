@@ -1,6 +1,6 @@
 {
   "name": "@anqer/tokens",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "anqer design tokens: colours, fonts and sizes as CSS custom properties, a Tailwind CSS 3.4 preset and JSON.",
   "license": "UNLICENSED",
   "type": "module",
