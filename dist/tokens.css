@@ -1,4 +1,4 @@
-/* @anqer/tokens 0.3.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit. */
+/* @anqer/tokens 0.4.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit. */
 :root {
   --anqer-color-navy: #09101b;
   --anqer-color-navy-ink: #1e2a3a;
@@ -69,6 +69,7 @@
   --anqer-font-display: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --anqer-font-size-2xs: 0.6875rem;
   --anqer-line-height-2xs: 1.45;
+  --anqer-radius-button: 0.5rem;
   --anqer-z-bar: 60;
   --anqer-z-rail: 70;
   --anqer-z-drawer: 80;
