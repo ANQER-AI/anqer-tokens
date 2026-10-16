@@ -1,4 +1,4 @@
-// @anqer/tokens 0.2.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
+// @anqer/tokens 0.3.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
 // Tailwind CSS 3.4 preset: presets: [require('@anqer/tokens/tailwind')]
 'use strict';
 
@@ -95,6 +95,20 @@ module.exports = {
       },
       "fontFamily": {
         "sans": [
+          "Helvetica Neue",
+          "Helvetica",
+          "Arial",
+          "sans-serif"
+        ],
+        "body": [
+          "Fira Sans",
+          "Helvetica Neue",
+          "Helvetica",
+          "Arial",
+          "sans-serif"
+        ],
+        "display": [
+          "Inter",
           "Helvetica Neue",
           "Helvetica",
           "Arial",

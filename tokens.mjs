@@ -157,6 +157,11 @@ export const rgbTriplets = ['brand', 'ink'];
 
 export const fontFamily = {
   sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+  // AQM-2979 (decided 2026-10-15): text in Fira Sans, headlines on the website
+  // in Inter. Names only: each surface loads the font files itself (the app via
+  // next/font, the website self-hosted), and the fallbacks are what `sans` was.
+  body: ['Fira Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+  display: ['Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
 };
 
 // Tailwind's default type scale (sm 14, base 16, xl 20, 2xl 24, …) plus ONE
