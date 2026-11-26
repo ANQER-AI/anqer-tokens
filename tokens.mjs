@@ -24,6 +24,8 @@ const MUTED = '#8b93a1';
 const OK = { DEFAULT: '#22c55e', ink: '#166534' };
 const WARN = { DEFAULT: '#eab308', ink: '#854d0e' };
 const DANGER = { DEFAULT: '#ef4444', ink: '#991b1b' };
+const OK_STRONG = '#16a34a';
+const FIT_YES_INK_STRONG = '#14532d';
 
 export const color = {
   // Two navies — do not conflate.
@@ -72,7 +74,7 @@ export const color = {
     yes: {
       DEFAULT: OK.DEFAULT,
       ink: OK.ink,
-      'ink-strong': '#14532d',
+      'ink-strong': FIT_YES_INK_STRONG,
       'on-navy': '#bbf7d0',
     },
     no: {
@@ -146,7 +148,22 @@ export const color = {
 
   // The solid status green used for glyphs and icons (a step darker than the
   // `ok` chip tint).
-  'ok-strong': '#16a34a',
+  'ok-strong': OK_STRONG,
+
+  // Quantity: a sequential scale for data, "how much" from little (0) to much
+  // (3), light to dark. For choropleth maps, legends and any other display
+  // where more reads as darker (AQM-3652; the Sources maps of AQM-3628).
+  // Single-hue, so it is read by lightness alone and stays legible for
+  // colour-blind readers. A display interpolates between the stops; it is
+  // never a status colour, and a status green is never borrowed for data.
+  // Stops 2 and 3 share their values with `ok-strong` and
+  // `fit-yes-ink-strong`, which are status colours and keep their meaning.
+  quantity: {
+    0: '#f0fdf4',
+    1: '#86efac',
+    2: OK_STRONG,
+    3: FIT_YES_INK_STRONG,
+  },
 };
 
 // Colours additionally published as bare `R G B` triplets in tokens.css
