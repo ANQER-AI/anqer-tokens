@@ -158,6 +158,25 @@ AA) text colour on that tint.
 | `setup-short` / `setup-short-ink` | `#b4761a` / `#8a5a08` |
 | `setup-short-line` / `setup-short-bg` | `#e0a92b` / `#fffbeb` |
 
+### Colour — data
+
+`quantity` is a sequential scale for data: how much, from little (`0`) to
+much (`3`), light to dark. Use it for choropleth maps, their legends and any
+other display where more reads as darker; interpolate between the stops for
+values in between. It is one hue, so it reads by lightness alone and stays
+legible for colour-blind readers. It is not a status colour, and a status
+green is not borrowed for data.
+
+| Name | Value |
+| --- | --- |
+| `quantity-0` | `#f0fdf4` |
+| `quantity-1` | `#86efac` |
+| `quantity-2` | `#16a34a` (same value as `ok-strong`) |
+| `quantity-3` | `#14532d` (same value as `fit-yes-ink-strong`) |
+
+In code, read the values from `tokens.json`:
+`tokens.nested.color.quantity['0']`.
+
 ### RGB triplets (CSS only)
 
 For alpha: `rgb(var(--anqer-color-brand-rgb) / 0.08)`.

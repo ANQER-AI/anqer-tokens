@@ -1,4 +1,4 @@
-// @anqer/tokens 0.4.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
+// @anqer/tokens 0.5.0 — GENERATED from tokens.mjs by scripts/build.mjs. Do not edit.
 // Tailwind CSS 3.4 preset: import anqer from '@anqer/tokens/tailwind'; presets: [anqer]
 
 export default {
@@ -90,7 +90,13 @@ export default {
           "fainter": "#9aa3ae",
           "dimmer": "#b3b8c0"
         },
-        "ok-strong": "#16a34a"
+        "ok-strong": "#16a34a",
+        "quantity": {
+          "0": "#f0fdf4",
+          "1": "#86efac",
+          "2": "#16a34a",
+          "3": "#14532d"
+        }
       },
       "fontFamily": {
         "sans": [
